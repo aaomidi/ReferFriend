@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Maven: co.mccn:mccn_sql:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/mccn_sql.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
