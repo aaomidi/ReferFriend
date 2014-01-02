@@ -27,7 +27,6 @@ public class Events implements Listener {
         _plugin.initializePlayer(player, unixTime, ip);
         if (player.hasPlayedBefore()) {
             String oldIP = _plugin.getIP(player.getName());
-            _plugin.getLogger().log(Level.SEVERE, "IP IS CURRENTLY" + oldIP);
             if (!(oldIP.equals(ip))) {
                 _plugin.updateIP(player.getName(), ip);
             }
