@@ -1,0 +1,4 @@
+#Refer a Friend Config
+database: 'test'
+WaitingTime: 30
+Tokens: 5
