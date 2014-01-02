@@ -1,7 +1,7 @@
 name: ReferFriend
 main: co.mccn.referfriend.ReferFriend
 version: ${project.version}
-depend: [MCCN_SQL, TokenAPI]
+depend: [MCCNSQL, TokenAPI]
 commands:
   referredby:
     description: Access Refer a Friend Commands
