@@ -1,8 +1,0 @@
-name: ReferFriend
-main: co.mccn.referfriend.ReferFriend
-version: 1.0-SNAPSHOT
-depend: [MCCN_SQL, TokenAPI]
-commands:
-  referredby:
-    description: Access Refer a Friend Commands
-    usage: Syntax error! Command is /referredby [player]
