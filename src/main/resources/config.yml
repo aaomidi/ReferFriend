@@ -1,4 +1,6 @@
 #Refer a Friend Config
-database: 'test'
+database: 'shared'
+username: 'username'
+password: 'password'
 WaitingTime: 30
 Tokens: 5

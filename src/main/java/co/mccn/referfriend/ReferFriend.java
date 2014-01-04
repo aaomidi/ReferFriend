@@ -61,6 +61,13 @@ public class ReferFriend extends JavaPlugin {
         createDatabase();
 
     }
+    private void connect(){
+        mccnSql.setDatabase(getConfig().getString("database"));
+        mccnSql.setUserName(getConfig().getString("username"));
+        mccnSql.setPassWord(getConfig().getString("password"));
+        mccnSql.connect();
+        createDatabase();
+    }
 
     private void createDatabase() {
         mccnSql.executeUpdate("CREATE TABLE IF NOT EXISTS `referrals` (`referred` VARCHAR(16) NOT NULL, `joinDate` LONG NOT NULL, `ipaddress` VARBINARY(16) NOT NULL, `commandDate` LONG DEFAULT NULL, `referrer` VARCHAR(16) DEFAULT NULL, `commandUsed` BOOLEAN NOT NULL DEFAULT FALSE, PRIMARY KEY(`referred`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;");
